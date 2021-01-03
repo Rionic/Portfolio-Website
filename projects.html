@@ -37,9 +37,7 @@
                         <h2>Database Storage Engine</h2>
 
                         <div class="project-contents">   
-                            <p>This project is required to be private by word of the instructor. 
-                            If you'd like to view the source code, please e-mail me directly
-                            at rsg23@sfu.ca or rajangrewal123@gmail.com.</p>
+                            <p><a href="https://drive.google.com/drive/folders/10M7vQ8o20QO5CJj1Vtv9Qiq-0Xkye8h1?usp=sharing">Google drive link</a></p>
                             <p>The premise of this project was to build a database management system.
                             It was completed over the period of three months in C++ with a partner for 
                             a databases course taken at SFU. The base idea of the project is to manage
@@ -97,6 +95,35 @@
             </div>
 
             <div class="project">
+                <img src="images/Web-Scraper.png">
+                <div class="description">
+                        <h2>Amazon Web Scraper</h2>
+
+                        <div class="project-contents">   
+                            <p><a href="https://github.com/Rionic/Amazon-Web-Scraper">Github link </a></p>
+                            <p>This program allows the user to know when an Amazon item goes on sale. The way
+                                it works is that it requires an Amazon item link, a user agent, two email
+                                addresses, a sender and receiver, and a price. The program will then email the
+                                receiver's address when the specified item reaches or drops below the inputted price.
+                                Detailed instructions are provided within the scraper.py file in the GitHub repo link.
+                            </p>
+
+                            <div class="feature-list">
+                                Scraping: uses BeautifulSoup to parse information from Amazon.<br>
+                                Emailing: uses SMTPLib to automatically send emails to specified addresses with a customizable message.<br>
+                                Price checking: checks the price by sending/receiving HTTP requests with the Requests library.<br>
+                                Refreshing: allows the user to enter a number which would represent the seconds between each price check.
+                            </div>
+                            
+                            <div class="skills-used">
+                                <h3>Skills utilized</h3>
+                                <p>Python, BeautifulSoup, Requests, SMPTLib, HTTP, web scraping, HTML.</p>
+                            </div>
+                        </div>  
+                </div>
+            </div>
+
+            <div class="project">
                 <img src="images/Grant-Track.png">
                 <div class="description">
                         <h2>Embedded SQL Interface</h2>
@@ -123,6 +150,97 @@
                             <div class="skills-used">
                                 <h3>Skills utilized</h3>
                                 <p>PostgreSQL, JavaScript, Node.js, databases, Git, collaboration, writing.</p>
+                            </div>
+                        </div>  
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="images/Last-Frontier.png">
+                <div class="description">
+                        <h2>The Last Frontier PC Game</h2>
+
+                        <div class="project-contents">   
+                            <p><a href="https://github.com/Rionic/The-Last-Frontier-Game-">Github link </a></p>
+                            <p>This game was the product of my team and I's efforts for the BC Game Jam 2018, 
+                                an event where programmers get together in groups and create a game in 48 hours.
+                                The game is a top-down, 2D shooter where the goal of the player is to defend 
+                                Earth against oncoming spaceships and maintain energy levels by shooting asteroids.
+                                The team decided to use Unity and C# to design the game.
+                            </p>
+
+                            <div class="feature-list">
+                                Random asteroid spawner: spawns asteroids randomly on the map with regards to nearby planets.<br>
+                                Art: features pixelated-style graphics made by the team.<br>
+                                Ship controls: allows player to aim ship with mouse and move with WASD keys.<br>
+                                Energy bar: depletes as the player shoots and is regained by shooting asteroids or touching another planet.<br>
+                                Audio: contains an audio track and sound effects for shooting, energy replenishment, and ship destruction.<br>
+                            </div>
+                            
+                            <div class="skills-used">
+                                <h3>Skills utilized</h3>
+                                <p>C#, Unity, Git, collaboration, working under pressure.</p>
+                            </div>
+                        </div>  
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="images/Multithreaded-Calculator.png">
+                <div class="description">
+                        <h2>Multithreaded Calculator</h2>
+
+                        <div class="project-contents">   
+                            <p><a href="https://github.com/Rionic/CMPT-300/blob/master/Assignment%202/assign2_part2/calc.c">Github link </a></p>
+                            <p>This program was designed in C over the course of two weeks. It supports
+                                addition and multiplication operations and can also understand inputs 
+                                with brackets in them. Each operation runs on its own thread, plus a 
+                                thread for reading and formatting. The program features many keystone
+                                operating system principles which are outlined below.
+                            </p>
+
+                            <div class="feature-list">
+                                Operations: supports addition, multiplication, and bracket usage.<br>
+                                Multithreading: increases program speed by having each operation run on its own thread.<br>
+                                Mutual exclusion & semaphores: locks shared structures and variables using semaphores.
+                                Deadlock avoidance: checks for malformed inputs which may cause deadlock and exits gracefully.<br>
+                                Race condition avoidance: avoids race conditions through appropraite mutual exclusion.<br>
+                                Critical sections: minimizies critical sections without giving way for a race condition.
+                            </div>
+                            
+                            <div class="skills-used">
+                                <h3>Skills utilized</h3>
+                                <p>C, concurrency, mutual exclusion, deadlocking.</p>
+                            </div>
+                        </div>  
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="images/Sudoku.png">
+                <div class="description">
+                        <h2>Sudoku Solver</h2>
+
+                        <div class="project-contents">   
+                            <p><a href="https://github.com/Rionic/CMPT-310/blob/master/A2/DPLLsat.py">Github link </a></p>
+                            <p>The goal of this project was to solve sudoku instances as efficiently as possible.
+                                I coded this over about two weeks in Python. The algorithm used was a popular logical algorithm
+                                called DPLL. The algorithm uses a few heuristics to speed up the solving process which 
+                                resulted in a tremendous difference. The algorithm will either print 'SAT' when it solves the
+                                sudoku instance, or 'UNSAT' if the puzzle is not solvable. Each sudoku puzzle is represented
+                                by a set of clauses which are in conjuctive normal form.
+                            </p>
+
+                            <div class="feature-list">
+                                Recursive elimination: recursively searches the list of clauses given and eliminates satisfiable clauses by assigning values to variables.<br>
+                                Pure literal elimination heuristic: a pure literal is a variable which occurs exclusively positively or negatively. These variables can be used to speed up the search and this is exactly what this heuristic does.<br>
+                                Unit clause heuristic: a unit clause is a clause which contains one variable. This variable must be set so that this clause is true, so we can set other instances of this variable to this value and speed up the search significantly.<br>
+
+                            </div>
+                            
+                            <div class="skills-used">
+                                <h3>Skills utilized</h3>
+                                <p>Python, artificial intelligence, logic.</p>
                             </div>
                         </div>  
                 </div>
