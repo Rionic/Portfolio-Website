@@ -128,10 +128,6 @@ body {
 }
 
 /* Projects Page */
-.projects {
-    display: flex;
-    flex-direction: column;
-}
 
 .project {
     display: flex;
@@ -146,7 +142,7 @@ body {
 
 .projects > .project > img {
     height: 384px;
-    width: 512px;
+    width: 400px;
     border-right: 2px solid black;
 }
 
