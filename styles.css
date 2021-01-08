@@ -146,6 +146,10 @@ body {
     border-right: 2px solid black;
 }
 
+.fill {
+    object-fit: fill;
+}
+
 .feature-list {
     padding: 2px 10px;
     margin-bottom: 10px;
