@@ -131,13 +131,14 @@ body {
 
 .project {
     display: flex;
-    border-bottom: 2px solid black;
+    /* border-bottom: 2px solid black; */
 }
 
 .description {
     height: 382px;
     overflow: auto;
     padding-left: 10px;
+    border-bottom: 2px solid black;
 }
 
 .projects > .project > img {
